@@ -1,0 +1,64 @@
+body{
+    background-color: #87b4e4;
+}
+h2{
+    font-weight: 500;
+}
+.formBox{
+    background-color: #ffffff;
+    width: 500px;
+    height: 900px;
+    margin: auto;
+    border-radius: 10px;
+    border: 10px solid  #5ea9fa;
+}
+.header{
+    text-align: center;
+}
+.file{
+    margin: 15px;
+}
+.formbody{
+    padding: 20px;
+}
+label{
+    margin: 8px;
+}
+input[type=text], input[type=number], input[type=email] {
+    width: 70%;
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+input[type=text]:focus, input[type=number]:focus, input[type=email]:focus,
+ textarea:focus, input[type=date]:focus{
+    border: 2px solid #007bff;
+}
+textarea{
+    width: 70%;
+    height: 80px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=date]{
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+input[type=submit] {
+    width: 75%;
+    background-color: #007bff;  
+    color: #ffffff;
+    padding: 14px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+} 

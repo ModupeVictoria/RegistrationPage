@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Registration Page</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="formBox">
+        <h2 class="header">XYZ Hospital Registration Form</h2>
+        <div class="file">
+        <img src="empty.png">
+        <form>
+           <input type="file">
+        </form>
+    </div>
+        <form class="formbody">
+            <label for="fName">First Name</label><br>
+            <input type="text" name="fName" placeholder="First Name..."><br>
+            <label for="lName">Last Name</label><br>
+            <input type="text" name="lName" placeholder="Last Name..."><br>
+            <label for="Phone">Phone No</label><br>
+            <input type="number" name="Phone" placeholder="Phone No..."><br>
+            <label for="email">Email Address</label><br>
+            <input type="email" name="email" placeholder="Email Address..."><br>
+            <label>Gender:</label><br><br>
+            <label for="female" class="sex">Female</label>
+            <input type="radio" name="gender">
+            <span class="checkmark"></span>
+            <label for="male" class="sex">Male</label>
+            <input type="radio" name="gender"><br><br>
+            <span class="checkmark"></span>
+            <label>Your Home Address</label><br>
+            <textarea placeholder="Address..." ></textarea> <br><br>
+            <label for="date">Select Date To Donate</label><br>
+            <input type="date" name="date"><br><br>
+           <input type="submit" value="Submit">
+        </form>
+
+    </div>
+    
+</body>
+</html>
